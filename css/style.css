@@ -24,10 +24,11 @@ header {
     place-items: center;
     backdrop-filter: blur(4px);
     background: hsla(0,0%,100%,.8);
+    background-color: var(--light-gray);
     width: 300px;
     height: 50px;
     border-radius: 30px;
 }
 .header-item {
-    margin: 0 10px;
+    margin: 0 24px;
 }
