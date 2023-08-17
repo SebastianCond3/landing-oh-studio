@@ -102,3 +102,24 @@ main {
     font-weight: 500;
     font-size: 26px;
 }
+footer {
+    display: flex;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+footer p {
+    margin-bottom: 10px;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.links {
+    place-self: center;
+    text-decoration: none;
+    color: black;
+}
