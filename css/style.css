@@ -83,3 +83,22 @@ main {
 .text-card span {
     color: var(--gray);
 }
+.get-section {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    place-content: center;
+    place-items: center;
+    flex-direction: column;
+}
+.get-section span {
+    color: var(--gray);
+ }
+
+.get-item {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 26px;
+}
