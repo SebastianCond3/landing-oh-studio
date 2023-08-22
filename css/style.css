@@ -85,6 +85,7 @@ main {
     border-radius: 15px;
 }
 .text-card {
+    display: inline-block;
     margin: 5px 0 15px 0;
 }
 .text-card span {
@@ -188,8 +189,48 @@ footer p {
     .main-text {
         margin: 0 80px;
         font-size: 48px;
+        max-width: 638px;
     }
     .tags {
         display: flex;
+    }
+    .cards-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+        place-content: center;
+        place-items: center;
+        margin: 150px 40px;
+    }
+    .card {
+        width: 100%;
+    }
+    .text-card {
+        display: none;
+    }
+    .get-section {
+        height: 100px;
+    }
+    footer {
+        height: 80px;
+    }
+    .footer-container {
+        display: flex;
+        width: 100%;
+        place-content: center;
+        place-items: center;
+    }
+    .start {
+        margin-left: 50%;
+    }
+}
+@media (min-width: 1200px) {
+    .main-text {
+        font-size: 68px;
+    }
+    .tag {
+        font-size: 18px;
     }
 }
