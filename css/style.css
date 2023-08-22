@@ -49,6 +49,20 @@ main {
     font-weight: 600;
     font-size: 36px;
     text-align: center;
+    margin: 0 5px;
+}
+.tags {
+    display: none;
+    place-content: center;
+    place-items: center;
+    margin-top: 36px;
+}
+.tag {
+    margin: 0 10px;
+    background: var(--light-gray);
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 14px;
 }
 .cards-section {
     display: flex;
@@ -143,5 +157,39 @@ footer p {
 @media (min-width: 375px) {
     .card {
         width: 332px;
+    }
+}
+@media (min-width: 400px) {
+    .card {
+        width: 360px;
+    }
+}
+@media (min-width: 450px) {
+    .card {
+        width: 416px;
+    }
+}
+@media (min-width: 530px) {
+    .card {
+        width: 480px;
+    }
+}
+@media (min-width: 630px) {
+    .card {
+        width: 580px;
+    }
+}
+@media (min-width: 768px) {
+    .card {
+        width: 690px;
+    }
+}
+@media (min-width: 810px){
+    .main-text {
+        margin: 0 80px;
+        font-size: 48px;
+    }
+    .tags {
+        display: flex;
     }
 }
