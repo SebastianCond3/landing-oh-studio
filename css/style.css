@@ -98,7 +98,7 @@ main {
     place-self: center;
     grid-column: 1 / 1;
     grid-row: 1  / 1;
-    position: absolute;
+    /*position: absolute;*/
     color: white;
 }
 .hover-icon {
@@ -108,7 +108,7 @@ main {
     padding: 5px;
     background: white;
     border-radius: 50%;
-    position: absolute;
+    /*position: absolute;*/
 }
 .text-card {
     display: inline-block;
@@ -254,7 +254,7 @@ footer p {
 }
 @media (min-width: 1200px) {
     main {
-        margin: 0 20%;
+        margin: 0 14%;
     }
     .main-text {
         font-size: 68px;
