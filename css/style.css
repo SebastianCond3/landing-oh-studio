@@ -178,6 +178,7 @@ footer p {
     right: 0;
     left: 0;
     bottom: 0;
+    /*margin-bottom: 45px;*/
 }
 .shop-button {
     border: none;
@@ -261,6 +262,9 @@ footer p {
     }
     .start {
         margin-left: 50%;
+    }
+    .button-container {
+        margin-bottom: 45px;
     }
 }
 @media (min-width: 1200px) {
